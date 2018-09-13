@@ -1,0 +1,57 @@
+
+Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+Node is command line runtime for Javascript. 
+
+ECMAScript (or ES-6) is the latest version of Javascript.
+
+Coercion is converting one data type into the other. There are two types implicit and explicit
+coercion.
+
+Truthy and falsy values.
+When we say that a value is "truthy" in JavaScript, we don't just mean that the value is true.
+Rather, what we mean is that the value coerces to true when evaluated in a boolean context. 
+
+Some of the truthy values are
+=========================================
+// Outputs: "Truthy!"
+logTruthiness(true);
+
+// Outputs: "Truthy!"
+logTruthiness({});
+
+// Outputs: "Truthy!"
+logTruthiness([]);
+
+// Outputs: "Truthy!"
+logTruthiness("some string");
+
+// Outputs: "Truthy!"
+logTruthiness(3.14);
+
+// Outputs: "Truthy!"
+logTruthiness(new Date());
+==============================================================
+
+List of Falsy values(there are only six falsy values)
+
+// Outputs: "Falsy."
+logTruthiness(false);
+
+// Outputs: "Falsy."
+logTruthiness(null);
+
+// Outputs: "Falsy."
+logTruthiness(undefined);
+
+// Outputs: "Falsy."
+logTruthiness(NaN);
+
+// Outputs: "Falsy."
+logTruthiness(0);
+
+// Outputs: "Falsy."
+logTruthiness(-0);
+
+// Outputs: "Falsy."
+logTruthiness("");
+=============================================================================
