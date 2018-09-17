@@ -55,3 +55,11 @@ logTruthiness(-0);
 // Outputs: "Falsy."
 logTruthiness("");
 =============================================================================
+
+
+
+Primitives Vs Objects
+
+Primitives are immutable(meaning cannot be changed)
+Objects are mutable and stored by references.
+
